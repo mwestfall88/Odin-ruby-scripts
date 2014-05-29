@@ -1,7 +1,7 @@
 def caesar_cipher(str, i)
-	alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l']
-	alphabet.push('m','n','o','p','q','r','s','t','u','v','w','x','y','z')
+	alphabet = ('a'..'z').to_a
 	cipher  = ""
+
 	str.each_char do |char|
 		if alphabet.include?(char)
 			char_index = alphabet.find_index(char) + i
@@ -15,6 +15,7 @@ def caesar_cipher(str, i)
 			cipher += char
 		end
 	end
+
+
 	cipher
 end
-
