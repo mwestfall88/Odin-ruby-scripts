@@ -6,7 +6,8 @@ This directory contains various ruby scripts via the curriculum of <a href="http
 <h3>List of programs<h3>
 	<ul>
 		<li>Caesar-Cipher</li>
-		<li>...</li>
+		<li>Stock Picker</li>
+		<li>Substrings</li>
 	</ul>
 
 <h2>Software</h2>
